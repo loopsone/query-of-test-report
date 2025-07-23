@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计量证书查询</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            background-color: white;
+        }
+        
+        .header {
+            background-color: #39b0e5;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .header h1 {
+            font-size: 18px;
+            font-weight: normal;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .search-container {
+            background-color: white;
+            padding: 0;
+            margin-top: 0;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .result-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0;
+            overflow-y: auto;
+            width: 100%;
+        }
+        
+        .result-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .result-table .label {
+            background-color: #e5f2fa;
+            width: 30%;
+            font-weight: bold;
+        }
+        
+        .result-table .data {
+            width: 70%;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 15px 0;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>计量证书查询</h1>
+        </div>
+        
+        <div class="search-container">
+            <table class="result-table">
+                <tr>
+                    <td class="label">证书编号</td>
+                    <td class="data">HX202501110185</td>
+                </tr>
+                <tr>
+                    <td class="label">送检单位</td>
+                    <td class="data">福建舜洋食品有限公司</td>
+                </tr>
+                <tr>
+                    <td class="label">计量器具名称</td>
+                    <td class="data">三相四线智能电表</td>
+                </tr>
+                <tr>
+                    <td class="label">型号/规格</td>
+                    <td class="data">DTZY71-G型</td>
+                </tr>
+                <tr>
+                    <td class="label">出厂编号</td>
+                    <td class="data">219230036600</td>
+                </tr>
+                <tr>
+                    <td class="label">管理编号</td>
+                    <td class="data">/</td>
+                </tr>
+                <tr>
+                    <td class="label">制造单位</td>
+                    <td class="data">江苏林洋能源股份有限公司</td>
+                </tr>
+                <tr>
+                    <td class="label">批准人</td>
+                    <td class="data">盘恩财</td>
+                </tr>
+                <tr>
+                    <td class="label">核验员</td>
+                    <td class="data">王明慧</td>
+                </tr>
+                <tr>
+                    <td class="label">检定员</td>
+                    <td class="data">何燕华</td>
+                </tr>
+                <tr>
+                    <td class="label">检定日期</td>
+                    <td class="data">20250111</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="footer">
+            计量校准检测系统
+        </div>
+<div id="./test.html" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0;">
+        <h3>测试内容</h3>
+        <p>这是嵌入的测试HTML内容。</p>
+        <a href="./test.html">测试链接</a>
+    </div>
+
+    </div>
+    
+    <script>
+        document.getElementById('back-btn').addEventListener('click', function() {
+            window.history.back();
+        });
+    </script>
+</body>
+</html>
